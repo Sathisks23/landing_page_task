@@ -1,0 +1,203 @@
+
+
+body{
+  margin:0px;
+  padding:0px;
+  font-family:'Bai Jamjuree', sans-serif;
+
+
+ 
+  
+ 
+}
+.header{
+    background-image:url('/images/bg-header-desktop.png');
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+   
+    
+
+}
+
+.header,.div1,.div3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top:100px;
+   
+   
+}
+ h1{
+    color:rgba(0, 0, 0, 0.733);
+   word-spacing:2px;
+   line-height:35px;
+}
+ p{
+    color: gray;
+    line-height: 30px;
+    
+}
+div{
+    text-align:center;
+
+}
+.header *{
+    text-align: center;
+}
+.div1 *{
+    text-align: center;
+}
+.div3 *{
+    text-align: center;
+}
+
+button{
+    width: 200px;
+    height: 40px;
+    border-radius:20px;
+    color: white;
+    border: none;
+}
+.btn1{
+    background-color:  hsl(171, 66%, 44%);
+}
+.btn2{
+    background-color:  hsl(233, 100%, 69%);
+}
+.div2{
+    padding-top: 100px;
+    display: flex;
+    gap: 40px;
+}
+.indiv>div>h2,p{
+    text-align: left;
+}
+.div4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.div4>div>p{
+    text-align: center;
+    gap:70px;
+}
+.innerdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:34px;
+    padding-top:50px;
+}
+.innerdiv>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.innerdiv>div>p{
+    text-align: center;
+    line-height: 20px;
+}
+.div5{
+  padding-top:50px;
+}
+.div5 *{
+    padding-left:50px;
+}
+.div6{
+    padding-top: 100px;
+}
+.div6>p{
+   text-align: center;
+}
+
+footer>img{
+    width:50px;
+
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+   justify-content:space-around;
+   padding-top: 200px;
+}
+.in-foot{
+    display: flex;
+     gap:50px;
+    align-items: center;
+   
+}
+.divv>img{
+    padding-left: 10px;
+}
+
+@media(max-width:1140px){
+    .div2{
+        display: flex;
+        flex-direction:column;
+    }
+    .indiv{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction:column;
+    }
+    .div3>img{
+        width: 80%;
+    }
+}
+@media(max-width:375px){
+    *{
+       margin:0 auto;
+
+    }
+    .header *{
+        padding:10px 0;
+        
+    }
+    .div2 *{
+        text-align: center;
+    }
+    .div2>img{
+        width:90%;
+    }
+    .div3>img{
+        width: 80%;
+    }
+    
+    .innerdiv{
+        display: flex;
+        flex-direction: column;
+    }
+    button{
+        margin:10px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .in-foot{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+    }
+    .div5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:30px;
+    }
+    
+   div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+}
