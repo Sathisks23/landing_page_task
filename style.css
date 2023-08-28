@@ -58,7 +58,11 @@ button{
     border-radius:20px;
     color: white;
     border: none;
+    cursor: pointer;
 }
+
+
+
 .btn1{
     background-color:  hsl(171, 66%, 44%);
 }
