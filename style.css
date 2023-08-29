@@ -5,7 +5,9 @@ body{
   padding:0px;
   font-family:'Bai Jamjuree', sans-serif;
 
-
+body>*>*{
+    padding-top: 50px;
+}
  
   
  
